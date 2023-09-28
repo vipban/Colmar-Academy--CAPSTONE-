@@ -4,6 +4,15 @@ html {
     color: rgb(48, 48, 48);
 }
 
+p {
+    color: gray;
+}
+
+a {
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
 /* Header Styling */
 header {
     padding: 0 1.5rem;
@@ -42,11 +51,6 @@ nav li {
     align-items: center;
 }
 
-nav a {
-    text-decoration: none;
-    color: rgb(48, 48, 48);
-}
-
 /* Left and Right Container Styling */
 .left {
     display: inline-block;
@@ -55,9 +59,7 @@ nav a {
 }
 
 .right {
-    display: inline-flex;   
-    flex-direction: column;
-    justify-content: space-around; 
+    display: inline-block;   
     width: 40%;
 }
 
@@ -73,6 +75,8 @@ nav a {
 }
 
 #banner .right {
+    flex-direction: column;
+    justify-content: space-around; 
     padding-right: 10%;
 }
 
@@ -86,4 +90,40 @@ nav a {
     border: none;
     
     width: 100%;
+}
+
+/* Information Styling */
+#information {
+    display: flex;
+    align-items: center;
+}
+
+#information img {
+    width: 100%;
+}
+
+#information .left p {
+    padding-top: 1.5rem;
+}
+
+#information .left {
+    border-right: 0.0625rem solid rgba(211, 211, 211, 0.5);
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    border-bottom: 0.0625rem solid rgba(211, 211, 211, 0.5);
+}
+
+#information .right img {
+    display: inline-block;
+    width: 35%;
+}
+
+#information .right .info-text {
+    display: inline-block;
+    width: 65%;
+    padding-left: 0.5rem;
 }
