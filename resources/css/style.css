@@ -95,7 +95,7 @@ nav li {
 /* Information Styling */
 #information {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 #information img {
@@ -120,12 +120,69 @@ nav li {
 #information .right img {
     display: inline-block;
     width: 35%;
+    margin: 1rem;
 }
 
 #information .right .info-text {
     display: inline-block;
     width: 65%;
-    padding-left: 0.5rem;
+}
+
+#information .right h3, #information .right p, #information .right a {
+    margin-bottom: 0.5rem;
 }
 
 /* Courses Styling */
+
+/* Thesis Styling */
+#thesis-heading {
+    text-align: center;
+}
+
+#thesis {
+    display: flex;
+    align-items: start;
+}
+
+#thesis video {
+    width: 100%;
+}
+
+#thesis h3, #thesis p {
+    margin-bottom: 0.5rem;
+}
+
+.thesis-block {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+#thesis .right img {
+    display: inline-block;
+    width: 35%;
+    margin: 1rem;
+}
+
+#thesis .right .thesis-text {
+    display: inline-block;
+    width: 65%;
+}
+
+/* Footer Styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-top: 0.0625rem solid rgba(211, 211, 211, 0.5);
+}
+
+.footer-right {
+    display: block;
+}
+
+.footer-right a {
+    color: gray;
+    margin-left: 0.5rem;
+}
