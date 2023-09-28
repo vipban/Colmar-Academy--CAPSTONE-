@@ -1,6 +1,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    color: rgb(48, 48, 48);
 }
 
 /* Header Styling */
@@ -43,5 +44,46 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(48, 48, 48);
+}
+
+/* Left and Right Container Styling */
+.left {
+    display: inline-block;
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.right {
+    display: inline-flex;   
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 40%;
+}
+
+/* Banner Styling */
+#banner {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#banner .right {
+    padding-right: 10%;
+}
+
+#banner button {
+    text-align: center;
+    color: white;
+
+    background-color: rgb(48, 48, 48);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    
+    width: 100%;
 }
