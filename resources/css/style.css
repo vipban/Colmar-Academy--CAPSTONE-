@@ -1,0 +1,47 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Header Styling */
+header {
+    padding: 0 1.5rem;
+    height: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* (Logo Styling) */
+#logo {
+    display: inline-flex;
+    height: 2rem;
+    text-transform: uppercase;
+    align-items: center;
+    letter-spacing: 0.03125rem;
+}
+
+#logo #Colmar {
+    font-weight: bold;
+}
+
+/* (Nav Styling) */
+nav {
+    display: inline-flex;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-left: 1rem;
+    display: inline flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
