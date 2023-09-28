@@ -13,6 +13,14 @@ a {
     text-decoration: none;
 }
 
+.center {
+    text-align: center;
+}
+
+.all-caps {
+    text-transform: uppercase;
+}
+
 /* Header Styling */
 header {
     padding: 0 1.5rem;
@@ -133,12 +141,39 @@ nav li {
 }
 
 /* Courses Styling */
-
-/* Thesis Styling */
-#thesis-heading {
-    text-align: center;
+#course-header {
+    padding: 2rem 0;
+    margin: 0;
 }
 
+#courses {
+    background-color: lightgray;
+}
+
+.course-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 3.5rem;
+}
+
+.course-block {
+    display: inline-block;
+    background-color: white;
+    width: 17.5rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.course-block img {
+    width: 100%;
+}
+
+.course-text {
+    padding: 1rem;
+}
+
+/* Thesis Styling */
 #thesis {
     display: flex;
     align-items: start;
